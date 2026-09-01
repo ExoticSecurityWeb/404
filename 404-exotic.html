@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cette page n'existe plus — Exotic</title>
+<style>
+  :root {
+    --ink: #eaf1f6;
+    --ink-dim: #9fb3c4;
+    --bg: #0d1b26;
+    --bg-deep: #071219;
+    --coral: #4aa3ff;
+    --palm: #2fd3c8;
+    --line: rgba(234, 241, 246, 0.14);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    background: radial-gradient(ellipse 120% 80% at 50% -10%, #16241f 0%, var(--bg) 45%, var(--bg-deep) 100%);
+    color: var(--ink);
+    font-family: 'Georgia', 'Iowan Old Style', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .frame {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .glyph {
+    font-size: 15px;
+    letter-spacing: 0.18em;
+    color: var(--coral);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin-bottom: 28px;
+  }
+
+  h1 {
+    font-size: clamp(32px, 8vw, 44px);
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin-bottom: 14px;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--coral);
+  }
+
+  p.lede {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15.5px;
+    line-height: 1.6;
+    color: var(--ink-dim);
+    max-width: 40ch;
+    margin-bottom: 40px;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    border-top: 1px solid var(--line);
+  }
+
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 4px;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none;
+    color: var(--ink);
+    transition: padding-left 0.25s ease, opacity 0.25s ease;
+  }
+
+  .option:hover {
+    padding-left: 10px;
+  }
+
+  .option:hover .arrow {
+    transform: translateX(4px);
+    opacity: 1;
+  }
+
+  .option-name {
+    font-size: 19px;
+  }
+
+  .option-tag {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12.5px;
+    color: var(--ink-dim);
+    display: block;
+    margin-top: 3px;
+  }
+
+  .arrow {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 18px;
+    color: var(--palm);
+    opacity: 0.55;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    flex-shrink: 0;
+  }
+
+  footer {
+    margin-top: 44px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+    color: var(--ink-dim);
+    opacity: 0.6;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .option, .arrow { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="frame">
+  <div class="glyph">🌴 EXOTIC</div>
+
+  <h1>Cette page <em>n'existe plus</em>.</h1>
+  <p class="lede">Le domaine que tu cherchais a été fermé ou déplacé. Voici où continuer, à la place :</p>
+
+  <div class="options">
+    <a class="option" href="https://exoticrcu.fwh.is/r.php?s=Palmi">
+      <span>
+        <span class="option-name">Palmi</span>
+        <span class="option-tag">assistant & bots</span>
+      </span>
+      <span class="arrow">→</span>
+    </a>
+
+    <a class="option" href="https://exoticrcu.fwh.is/r.php?s=Takashi-ExoticJP">
+      <span>
+        <span class="option-name">Takashi-Exotic</span>
+        <span class="option-tag">site thème Japon</span>
+      </span>
+      <span class="arrow">→</span>
+    </a>
+
+    <a class="option" href="https://exoticrcu.fwh.is/r.php?s=ExoticaGaming">
+      <span>
+        <span class="option-name">ExoticaGaming</span>
+        <span class="option-tag">jeux Roblox</span>
+      </span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+
+  <footer>404.pinkmail.abrdns.com</footer>
+</div>
+
+</body>
+</html>
